@@ -1,8 +1,9 @@
-//+build go1.12
+//go:build go1.12
+// +build go1.12
 
 package luar
 
-import "github.com/yuin/gopher-lua"
+import lua "github.com/epikur-io/gopher-lua"
 
 func mapCall(L *lua.LState) int {
 	ref, _ := check(L, 1)

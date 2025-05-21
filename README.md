@@ -1,8 +1,12 @@
-# gopher-luar [![GoDoc](https://godoc.org/layeh.com/gopher-luar?status.svg)](https://godoc.org/layeh.com/gopher-luar)
+# gopher-luar [![GoDoc](https://godoc.org/github.com/epikur-io/gopher-luar?status.svg)](https://godoc.org/github.com/epikur-io/gopher-luar)
 
-gopher-luar simplifies data passing to and from [gopher-lua](https://github.com/yuin/gopher-lua).
+gopher-luar simplifies data passing to and from [gopher-lua](https://github.com/epikur-io/gopher-lua).
 
-Example usage:
+## Note
+
+This is a fork of [https://github.com/layeh/gopher-luar](https://github.com/layeh/gopher-luar) in order to work with my [patched Gopher-Lua version](https://github.com/epikur-io/gopher-luar) that supports debug hooks and more.
+
+## Example usage
 
 ```go
 package luar_test
@@ -10,8 +14,8 @@ package luar_test
 import (
     "fmt"
 
-    "github.com/yuin/gopher-lua"
-    "layeh.com/gopher-luar"
+    "github.com/epikur-io/gopher-lua"
+    "github.com/epikur-io/gopher-luar"
 )
 
 type User struct {

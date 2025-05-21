@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/epikur-io/gopher-lua"
 	"strings"
 )
 

@@ -3,7 +3,7 @@ package luar
 import (
 	"reflect"
 
-	"github.com/yuin/gopher-lua"
+	lua "github.com/epikur-io/gopher-lua"
 )
 
 // LState is an wrapper for gopher-lua's LState. It should be used when you

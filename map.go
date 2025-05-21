@@ -3,7 +3,7 @@ package luar
 import (
 	"reflect"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/epikur-io/gopher-lua"
 )
 
 func mapIndex(L *lua.LState) int {

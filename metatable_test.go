@@ -3,7 +3,7 @@ package luar
 import (
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/epikur-io/gopher-lua"
 )
 
 func Test_metatable(t *testing.T) {

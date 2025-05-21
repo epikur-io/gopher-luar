@@ -3,7 +3,7 @@ package luar
 import (
 	"reflect"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/epikur-io/gopher-lua"
 )
 
 func checkPtr(L *lua.LState, idx int) (ref reflect.Value, mt *Metatable) {

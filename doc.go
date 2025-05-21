@@ -1,11 +1,11 @@
 // Package luar simplifies data passing to and from gopher-lua.
-// (https://github.com/yuin/gopher-lua).
+// (https://github.com/epikur-io/gopher-lua).
 //
-// Go to Lua conversions
+// # Go to Lua conversions
 //
 // See documentation of New function.
 //
-// Lua to Go conversions
+// # Lua to Go conversions
 //
 // Lua types are automatically converted to match the output Go type (e.g.
 // setting a struct field from Lua).
@@ -36,10 +36,10 @@
 // will have the signature func(...interface{}) []interface{}. The arguments
 // and return values will be converted using the standard luar conversion rules.
 //
-// Thread safety
+// # Thread safety
 //
 // This package accesses and modifies the Lua state's registry. This happens
 // when functions like New are called, and potentially when luar-created values
 // are used. It is your responsibility to ensure that concurrent access of the
 // state's registry does not happen.
-package luar // import "layeh.com/gopher-luar"
+package luar // import "github.com/epikur-io/gopher-luar"
